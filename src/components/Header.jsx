@@ -8,11 +8,9 @@ const Header = () => (
           REDUX STORE
         </Link>
 
-        <div className='flex items-center gap-10'>
-          <div className='flex items-center gap-5'>
-            <Link to='/'>Home</Link>
-            <Link to='/cart'>Cart</Link>
-          </div>
+        <div className='flex items-center gap-10 font-semibold'>
+          <Link to='/'>Home</Link>
+          <Link to='/cart'>Cart</Link>
 
           <span>Cart items: 0</span>
         </div>
