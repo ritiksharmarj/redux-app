@@ -1,7 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
-import './App.css';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import Header from './components/Header';
