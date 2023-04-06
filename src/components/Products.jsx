@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import ProductCard from './cards/ProductCard';
-import { STATUSES, fetchProducts } from '../store/productSlice';
+import { STATUSES, fetchProductData } from '../store/productSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
 const Products = () => {
@@ -11,7 +11,7 @@ const Products = () => {
   );
 
   useEffect(() => {
-    dispatch(fetchProducts());
+    dispatch(fetchProductData());
 
     // const getProducts = async () => {
     //   const res = await fetch('https://fakestoreapi.com/products');
